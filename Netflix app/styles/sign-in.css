@@ -1,0 +1,145 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #000;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(../assests/image\ 1.jpg);
+}
+
+.logo{
+  padding: 14px;
+  margin: 14px;
+  border: 1px solid #000000;
+}
+
+.form-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.sign-in-form{
+  width: 430px;
+  min-height: 600px;
+  padding: 50px;
+  background-color: #221F1F;
+  color: rgb(203, 200, 200);
+  border-radius: 3px;
+  opacity: 0.9;
+}
+
+.form-title{
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.inputs{
+  margin-bottom: 30px;
+}
+
+.inputs input{
+  width: 100%;
+  background-color: #303030;
+  color: #ffffff;
+  padding: 15px;
+  border: none;
+  border-radius: 5px
+}
+
+.btn{
+  width: 100%;
+  border: none;
+  padding: 15px;
+  text-transform: capitalize;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #E50914;
+  color: #fff;
+}
+
+.btn:hover{
+  color: #000;
+  font-weight: bold;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 20px 20px 40px 20px;
+}
+
+.flex-i a{
+ text-decoration: none;
+ color: #fff;
+}
+
+.fb-logo img{
+  margin-right: 6px;
+}
+
+.fb-logo a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p{
+  margin: 10px 0px;
+}
+
+.sign-up-link{
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.link-more{
+  text-decoration: none;
+  color: #0000ff;
+}
+
+.footer-container{
+  margin-top: 35px;
+  background-color: #221F1F;
+  color: #fff;
+  padding: 50px;
+  opacity: 0.9;
+}
+
+.flex-items ul{
+  list-style: none;
+}
+
+.flex-items ul li{
+  padding-bottom: 12px;
+}
+
+.footer-flex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0px;
+}
+
+.flex-items a{
+  text-decoration: none;
+  color: #fff;
+}
+.flex-items a:hover{
+  color: #E50914;
+}
+
+#language{
+  margin-top: 20px;
+  padding: 8px;
+  background-color: transparent;
+  color: #ffffff;
+}
